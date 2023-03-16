@@ -27,12 +27,14 @@ const Directory = () => {
 			title: "anime",
 			imageUrl:
 				"https://cdn.shopify.com/s/files/1/0579/0495/5601/products/AOTcosplay_05.jpg?v=1669632186&width=2048",
+			size: "large",
 			id: 4,
 			linkUrl: "shop/anime",
 		},
 		{
 			title: "mens",
-			imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+			imageUrl:
+				"https://www.telegraph.co.uk/content/dam/men/2022/01/12/Main-image_trans_NvBQzQNjv4Bq2oUEflmHZZHjcYuvN_Gr-bVmXC2g6irFbtWDjolSHWg.jpg",
 			size: "large",
 			id: 5,
 			linkUrl: "shop/mens",
@@ -41,10 +43,12 @@ const Directory = () => {
 
 	return (
 		<div className="directory-menu">
-			{sections.map(({ title, imageUrl, id }) => (
+			{sections.map(({ title, imageUrl, id, size }) => (
 				<MenuItem
 					key={id}
 					title={title}
+					imageUrl={imageUrl}
+					size={size}
 				/>
 			))}
 		</div>
