@@ -6,14 +6,16 @@ const SHOP_DATA = [
 		items: [
 			{
 				id: 1,
-				name: "Brown Brim",
-				imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+				name: "Straw Hat",
+				imageUrl:
+					"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71hSAoDmy9L._UX569_.jpg",
 				price: 25,
 			},
 			{
 				id: 2,
-				name: "Blue Beanie",
-				imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+				name: "Fedora",
+				imageUrl:
+					"https://cdn.shopify.com/s/files/1/2624/7744/products/f7fad973d14df03ee33437fe0d2172d8_900x900.jpg?v=1668712798",
 				price: 18,
 			},
 			{
@@ -135,7 +137,8 @@ const SHOP_DATA = [
 			{
 				id: 20,
 				name: "Grey Jean Jacket",
-				imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+				imageUrl:
+					"https://5.imimg.com/data5/KM/VW/MY-45002099/mens-winter-jacket-500x500.jpg",
 				price: 90,
 			},
 			{
@@ -159,44 +162,52 @@ const SHOP_DATA = [
 		items: [
 			{
 				id: 23,
-				name: "Blue Tanktop",
-				imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+				name: "Goku Black",
+				imageUrl:
+					"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/615K1uue7GL._UY550_.jpg",
 				price: 25,
 			},
 			{
 				id: 24,
-				name: "Floral Blouse",
-				imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+				name: "Haikyuu",
+				imageUrl:
+					"https://i.pinimg.com/originals/e7/a2/a7/e7a2a737245aa86c51e4ed678de5a51c.jpg",
 				price: 20,
 			},
 			{
 				id: 25,
-				name: "Floral Dress",
-				imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+				name: "Levi",
+				imageUrl:
+					"https://i.pinimg.com/564x/05/36/29/053629b9f07b601043792581ce4f8786.jpg",
 				price: 80,
 			},
+
 			{
 				id: 26,
-				name: "Red Dots Dress",
-				imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+				name: "Formal Coat",
+				imageUrl:
+					"https://i.pinimg.com/564x/f3/f6/4c/f3f64c34fd56e0c3b90b65d00f2235f0.jpg",
 				price: 80,
 			},
 			{
 				id: 27,
-				name: "Striped Sweater",
-				imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+				name: "Oikawa Duo",
+				imageUrl:
+					"https://i.pinimg.com/564x/3b/97/ed/3b97ed3dad67df3b33b95ef91a6c41b9.jpg",
 				price: 45,
 			},
 			{
 				id: 28,
-				name: "Yellow Track Suit",
-				imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+				name: "Sweat Shirt",
+				imageUrl:
+					"https://i.pinimg.com/564x/2d/4e/bf/2d4ebf645d543791d1ca71d4177f4272.jpg",
 				price: 135,
 			},
 			{
 				id: 29,
-				name: "White Blouse",
-				imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
+				name: "Double Coats",
+				imageUrl:
+					"https://i.pinimg.com/564x/08/23/c8/0823c808b7e2940faaf40606169d9524.jpg",
 				price: 20,
 			},
 		],
