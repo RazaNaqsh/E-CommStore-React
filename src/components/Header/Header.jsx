@@ -13,6 +13,7 @@ const Header = () => {
 			>
 				<Crown className="logo" />
 			</Link>
+
 			<div className="options">
 				<Link
 					className="option"
@@ -20,11 +21,19 @@ const Header = () => {
 				>
 					Shop
 				</Link>
+
 				<Link
 					className="option"
-					to="/shop"
+					to="/contact"
 				>
 					Contact
+				</Link>
+
+				<Link
+					className="option"
+					to="/signin"
+				>
+					Sign In
 				</Link>
 			</div>
 		</div>
