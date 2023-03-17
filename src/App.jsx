@@ -1,12 +1,15 @@
+import React from "react";
 import Homepage from "./pages/homepage/Homepage";
 import Shop from "./pages/shop/Shop";
-import React from "react";
+import Header from "./components/Header/Header";
+
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
+				<Header />
 				<Routes>
 					<Route
 						exact
