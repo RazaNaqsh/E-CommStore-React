@@ -4,6 +4,7 @@ import Shop from "./pages/shop/Shop";
 import Header from "./components/Header/Header";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import SignInAndUp from "./pages/signInAndUp/SignInAndUp";
 
 function App() {
 	return (
@@ -19,6 +20,10 @@ function App() {
 					<Route
 						path="/shop"
 						element={<Shop />}
+					/>
+					<Route
+						path="/signin"
+						element={<SignInAndUp />}
 					/>
 				</Routes>
 			</BrowserRouter>

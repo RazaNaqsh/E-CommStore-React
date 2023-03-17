@@ -169,14 +169,14 @@ const SHOP_DATA = [
 			},
 			{
 				id: 24,
-				name: "Haikyuu",
+				name: "Casuals",
 				imageUrl:
 					"https://i.pinimg.com/originals/e7/a2/a7/e7a2a737245aa86c51e4ed678de5a51c.jpg",
 				price: 20,
 			},
 			{
 				id: 25,
-				name: "Levi",
+				name: "Levi Coat",
 				imageUrl:
 					"https://i.pinimg.com/564x/05/36/29/053629b9f07b601043792581ce4f8786.jpg",
 				price: 80,
