@@ -4,7 +4,9 @@ import { Crown } from "../../assets/Crown.jsx";
 
 import "./header.scss";
 
-const Header = () => {
+import { auth } from "../../firebase/firebaseUtils.js";
+
+const Header = ({ currentUser }) => {
 	return (
 		<div className="header">
 			<Link
@@ -29,12 +31,21 @@ const Header = () => {
 					Contact
 				</Link>
 
-				<Link
-					className="option"
-					to="/signin"
-				>
-					Sign In
-				</Link>
+				{currentUser ? (
+					<div
+						className="option"
+						onClick={() => auth.signOut()}
+					>
+						SIGN OUT
+					</div>
+				) : (
+					<Link
+						className="option"
+						to="/signin"
+					>
+						SIGN IN
+					</Link>
+				)}
 			</div>
 		</div>
 	);
