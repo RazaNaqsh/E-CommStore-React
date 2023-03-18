@@ -8,16 +8,16 @@ export const Crown = () => {
 			viewBox="0 0 50 39"
 			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
-			xmlns:xlink="http://www.w3.org/1999/xlink"
+			// xmlns:xlink="http://www.w3.org/1999/xlink"
 		>
 			<title>Group</title>
 			<desc>Created with Sketch.</desc>
 			<g
 				id="WiP"
 				stroke="none"
-				stroke-width="1"
+				strokeWidth="1"
 				fill="none"
-				fill-rule="evenodd"
+				fillRule="evenodd"
 			>
 				<g
 					id="Artboard"
@@ -34,7 +34,7 @@ export const Crown = () => {
 						></polygon>
 						<polygon
 							id="Triangle"
-							fill-opacity="0.262838724"
+							fillOpacity="0.262838724"
 							fill="#101A1A"
 							points="25 8 40 39 10 39"
 						></polygon>
