@@ -4,12 +4,15 @@ import "./signIn.scss";
 import FormInput from "../FormInput/FormInput";
 import CustomButton from "../CustomButton/CustomButton";
 
-import { signInWithGooglePopup } from "../../utils/firebase/firebaseUtils.js";
+import {
+	signInWithGooglePopup,
+	createUserDocumentFromAuth,
+} from "../../utils/firebase/firebaseUtils.js";
 
 const SignIn = () => {
 	const logGoogleUser = async () => {
-		const response = await signInWithGooglePopup();
-		console.log(response);
+		const { user } = await signInWithGooglePopup();
+		const userDocRef = await createUserDocumentFromAuth(user);
 	};
 
 	const [id, setId] = useState({

@@ -19,14 +19,14 @@ const Header = () => {
 					className="option"
 					to="/shop"
 				>
-					Shop
+					SHOP
 				</Link>
 
 				<Link
 					className="option"
 					to="/contact"
 				>
-					Contact
+					CONTACT
 				</Link>
 
 				<Link
