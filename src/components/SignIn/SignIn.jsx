@@ -4,7 +4,14 @@ import "./signIn.scss";
 import FormInput from "../FormInput/FormInput";
 import CustomButton from "../CustomButton/CustomButton";
 
+import { signInWithGooglePopup } from "../../utils/firebase/firebaseUtils.js";
+
 const SignIn = () => {
+	const logGoogleUser = async () => {
+		const response = await signInWithGooglePopup();
+		console.log(response);
+	};
+
 	const [id, setId] = useState({
 		email: "",
 		password: "",
@@ -45,7 +52,7 @@ const SignIn = () => {
 				<div className="buttons">
 					<CustomButton type="submit">Sign In</CustomButton>
 					<CustomButton
-						// onClick={signInWithGoogle}
+						onClick={logGoogleUser}
 						isGoogleSignIn
 					>
 						{" "}
