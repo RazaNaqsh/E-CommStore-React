@@ -4,7 +4,7 @@ import CollectionPreview from "../../components/CollectionPreview/CollectionPrev
 
 const Shop = () => {
 	const [collections, setCollections] = useState(SHOP_DATA);
-	console.log("🚀 ~ file: Shop.jsx:6 ~ Shop ~ collections:", collections);
+	// console.log("🚀 ~ file: Shop.jsx:6 ~ Shop ~ collections:", collections);
 
 	return (
 		<div className="shop-page">

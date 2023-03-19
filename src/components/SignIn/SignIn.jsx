@@ -4,8 +4,6 @@ import "./signIn.scss";
 import FormInput from "../FormInput/FormInput";
 import CustomButton from "../CustomButton/CustomButton";
 
-import { signInWithGoogle } from "../../firebase/firebaseUtils";
-
 const SignIn = () => {
 	const [id, setId] = useState({
 		email: "",
@@ -47,7 +45,7 @@ const SignIn = () => {
 				<div className="buttons">
 					<CustomButton type="submit">Sign In</CustomButton>
 					<CustomButton
-						onClick={signInWithGoogle}
+						// onClick={signInWithGoogle}
 						isGoogleSignIn
 					>
 						{" "}

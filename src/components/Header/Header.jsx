@@ -4,8 +4,6 @@ import { Crown } from "../../assets/Crown.jsx";
 
 import "./header.scss";
 
-import { auth } from "../../firebase/firebaseUtils.js";
-
 const Header = ({ currentUser }) => {
 	return (
 		<div className="header">
