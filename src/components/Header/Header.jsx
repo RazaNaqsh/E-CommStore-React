@@ -4,7 +4,7 @@ import { Crown } from "../../assets/Crown.jsx";
 
 import "./header.scss";
 
-const Header = ({ currentUser }) => {
+const Header = () => {
 	return (
 		<div className="header">
 			<Link
@@ -29,21 +29,12 @@ const Header = ({ currentUser }) => {
 					Contact
 				</Link>
 
-				{currentUser ? (
-					<div
-						className="option"
-						onClick={() => auth.signOut()}
-					>
-						SIGN OUT
-					</div>
-				) : (
-					<Link
-						className="option"
-						to="/signin"
-					>
-						SIGN IN
-					</Link>
-				)}
+				<Link
+					className="option"
+					to="/signin"
+				>
+					SIGN IN
+				</Link>
 			</div>
 		</div>
 	);

@@ -13,24 +13,22 @@ function App() {
 
 	return (
 		<div className="App">
-			<BrowserRouter>
-				<Header currentUser={userState.currentUser} />
-				<Routes>
-					<Route
-						exact
-						path="/"
-						element={<Homepage />}
-					/>
-					<Route
-						path="/shop"
-						element={<Shop />}
-					/>
-					<Route
-						path="/signin"
-						element={<SignInAndUp />}
-					/>
-				</Routes>
-			</BrowserRouter>
+			<Header currentUser={userState.currentUser} />
+			<Routes>
+				<Route
+					exact
+					path="/"
+					element={<Homepage />}
+				/>
+				<Route
+					path="/shop"
+					element={<Shop />}
+				/>
+				<Route
+					path="/signin"
+					element={<SignInAndUp />}
+				/>
+			</Routes>
 		</div>
 	);
 }
